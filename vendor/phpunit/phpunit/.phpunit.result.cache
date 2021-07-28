@@ -1,0 +1,1 @@
+{"version":1,"defects":{"BingoCallerTest::testWhenCallsANumberItsInTheValidRange":3,"BingoCallerTest::testWhenCalls75TimesAllNumbersArePresent":3},"times":{"BingoCallerTest::testWhenCallsANumberItsInTheValidRange":0.003,"BingoCallerTest::testWhenCalls75TimesAllNumbersArePresent":0.002}}
