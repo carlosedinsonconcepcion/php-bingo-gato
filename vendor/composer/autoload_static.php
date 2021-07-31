@@ -71,6 +71,8 @@ class ComposerStaticInit4d54282fefb039b88ac9da0d5d35cb3d
     );
 
     public static $classMap = array (
+        'BingoCaller' => __DIR__ . '/../..' . '/src/BingoCaller.php',
+        'BingoCardGenerator' => __DIR__ . '/../..' . '/src/BingoCardGenerator.php',
         'PHPUnit\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
         'PHPUnit\\Framework\\ActualValueIsNotAnObjectException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Exception/ActualValueIsNotAnObjectException.php',
         'PHPUnit\\Framework\\Assert' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert.php',
@@ -696,7 +698,6 @@ class ComposerStaticInit4d54282fefb039b88ac9da0d5d35cb3d
         'TheSeer\\Tokenizer\\TokenCollectionException' => __DIR__ . '/..' . '/theseer/tokenizer/src/TokenCollectionException.php',
         'TheSeer\\Tokenizer\\Tokenizer' => __DIR__ . '/..' . '/theseer/tokenizer/src/Tokenizer.php',
         'TheSeer\\Tokenizer\\XMLSerializer' => __DIR__ . '/..' . '/theseer/tokenizer/src/XMLSerializer.php',
-        'src\\BingoCaller' => __DIR__ . '/../..' . '/src/BingoCaller.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
