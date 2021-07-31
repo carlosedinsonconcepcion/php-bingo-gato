@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'BingoCaller' => $baseDir . '/src/BingoCaller.php',
     'BingoCardGenerator' => $baseDir . '/src/BingoCardGenerator.php',
+    'Models\\Card' => $baseDir . '/src/Models/Card.php',
     'PHPUnit\\Exception' => $vendorDir . '/phpunit/phpunit/src/Exception.php',
     'PHPUnit\\Framework\\ActualValueIsNotAnObjectException' => $vendorDir . '/phpunit/phpunit/src/Framework/Exception/ActualValueIsNotAnObjectException.php',
     'PHPUnit\\Framework\\Assert' => $vendorDir . '/phpunit/phpunit/src/Framework/Assert.php',
