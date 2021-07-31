@@ -20,6 +20,9 @@ class BingoCardGenerator
 		$this->grid['N'] = $this->generateColumnWithBoundaries(31,45);
 		$this->grid['G'] = $this->generateColumnWithBoundaries(46,60);
 		$this->grid['O'] = $this->generateColumnWithBoundaries(61,75);
+		
+		// Free space at the middle of the card
+		$this->grid['N'][2] = null;
 
 		return new Card($this->grid);
 	}
