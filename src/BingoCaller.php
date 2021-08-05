@@ -21,5 +21,11 @@ class BingoCaller
 
 		return $number;
 	}
+
+	public function hasCalledNumber($number): bool
+	{
+		return in_array($number, $this->numbers);
+
+	}
 }
 

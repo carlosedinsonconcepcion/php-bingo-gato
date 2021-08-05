@@ -10,6 +10,7 @@ class BingoCardGeneratorTest extends TestCase
 		$generator = new BingoCardGenerator();
 		$card = $generator->generate();
 		
+
 		$this->assertTrue($card->isValid());
 	}
 

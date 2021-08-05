@@ -11,7 +11,8 @@ class Card
 	}
 
 	public function isValid(): bool
-	{
+	{       
+	
 		return $this->hasValidSize() && $this->respectBoundaries();
 	}
 
@@ -54,6 +55,17 @@ class Card
 	public function hasFreeSpaceInTheMiddle()
 	{
 		return is_null($this->grid['N'][2]);
+	}
+
+	public function getNumbersInCard()
+	{
+		return array_merge(
+			$this->grid['B'],
+			$this->grid['I'],
+			$this->grid['N'],
+			$this->grid['G'],
+			$this->grid['O']
+		);
 	}
 
 }
